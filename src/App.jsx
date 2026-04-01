@@ -229,7 +229,7 @@ const App = () => {
     
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       {/* Step 1 */}
-      <div className="relative bg-white p-8 rounded-2xl shadow-sm border flex flex-col items-center">
+      <div className="relative bg-white p-8 rounded-2xl shadow-sm  flex flex-col items-center">
         <span className="absolute -top-3 right-8 bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">01</span>
         <div className="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-4">
            <img src="./src/assets/user.png" alt="" className="w-8 h-8" />
@@ -239,17 +239,17 @@ const App = () => {
       </div>
 
       {/* Step 2 */}
-      <div className="relative bg-white p-8 rounded-2xl shadow-sm border flex flex-col items-center">
+      <div className="relative bg-white p-8 rounded-2xl shadow-sm  flex flex-col items-center">
         <span className="absolute -top-3 right-8 bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">02</span>
         <div className="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-4">
-           <img src="./src/assets/products.png" alt="" className="w-8 h-8" />
+           <img src="./src/assets/package.png" alt="" className="w-8 h-8" />
         </div>
         <h3 className="font-bold text-lg mb-2">Choose Products</h3>
         <p className="text-gray-500 text-sm">Browse our catalog and select the tools that fit your needs.</p>
       </div>
 
       {/* Step 3 */}
-      <div className="relative bg-white p-8 rounded-2xl shadow-sm border flex flex-col items-center">
+      <div className="relative bg-white p-8 rounded-2xl shadow-sm flex flex-col items-center">
         <span className="absolute -top-3 right-8 bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">03</span>
         <div className="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-4">
            <img src="./src/assets/rocket.png" alt="" className="w-8 h-8" />
@@ -269,7 +269,7 @@ const App = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
       {/* Starter */}
-      <div className="bg-gray-50 p-8 rounded-2xl border text-left">
+      <div className="bg-gray-50 p-8 rounded-2xl shadow-sm  text-left">
         <h3 className="font-bold text-xl mb-1">Starter</h3>
         <p className="text-gray-400 text-sm mb-4">Perfect for getting started</p>
         <div className="text-3xl font-bold mb-6">$0<span className="text-sm text-gray-400">/Month</span></div>
@@ -278,7 +278,7 @@ const App = () => {
           <li>✔ Basic templates</li>
           <li>✔ Community support</li>
         </ul>
-        <button className="w-full py-3 bg-purple-600 text-white rounded-xl font-semibold">Get Started Free</button>
+        <button className="w-full py-3 bg-purple-600 text-white rounded-full font-semibold">Get Started Free</button>
       </div>
 
       {/* Pro (Highlighted) */}
@@ -297,7 +297,7 @@ const App = () => {
       </div>
 
       {/* Enterprise */}
-      <div className="bg-gray-50 p-8 rounded-2xl border text-left">
+      <div className="bg-gray-50 p-8 rounded-2xl shadow-sm text-left">
         <h3 className="font-bold text-xl mb-1">Enterprise</h3>
         <p className="text-gray-400 text-sm mb-4">For teams and businesses</p>
         <div className="text-3xl font-bold mb-6">$99<span className="text-sm text-gray-400">/Month</span></div>
@@ -307,7 +307,7 @@ const App = () => {
           <li>✔ Dedicated support</li>
           <li>✔ SLA guarantee</li>
         </ul>
-        <button className="w-full py-3 border border-purple-600 text-purple-600 rounded-xl font-semibold hover:bg-purple-50 transition-colors">Contact Sales</button>
+        <button className="w-full py-3  bg-purple-600 border border-purple-600 text-white rounded-full font-semibold hover:bg-purple-50 transition-colors">Contact Sales</button>
       </div>
     </div>
   </div>
