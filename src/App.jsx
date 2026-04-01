@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa';
 
+
 const App = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
