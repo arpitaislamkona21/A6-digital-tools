@@ -1,16 +1,18 @@
-# React + Vite
+# DigiTools - Supercharge Your Digital Workflow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### A little Description
+এটি একটি প্রিমিয়াম ডিজিটাল টুলস ল্যান্ডিং পেজ। এখানে ইউজাররা বিভিন্ন এআই-পাওয়ারড টুলস এবং ডিজাইন অ্যাসেট ব্রাউজ করতে পারে, কার্টে যোগ করতে পারে এবং তাদের পছন্দের টুলসগুলো ম্যানেজ করতে পারে।
 
-Currently, two official plugins are available:
+### Technologies Used
+এই প্রজেক্টটি তৈরি করতে আমি নিচের টেকনোলজিগুলো ব্যবহার করেছি:
+* **React.js** - ইউজার ইন্টারফেস তৈরির জন্য।
+* **Tailwind CSS** - রেসপনসিভ এবং আধুনিক ডিজাইনের জন্য।
+* **DaisyUI** - রেডিমেড কম্পোনেন্ট ব্যবহারের জন্য।
+* **React Toastify** - ইউজারকে সুন্দর নোটিফিকেশন দেখানোর জন্য।
+* **React Icons** - সোশ্যাল মিডিয়া এবং অন্যান্য আইকন ব্যবহারের জন্য।
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3 Key Features
+১. **Interactive Product Cart:** ইউজাররা যেকোনো টুলস পছন্দ করে কার্টে যোগ করতে পারে এবং প্রয়োজনে কার্ট থেকে রিমুভ করতে পারে।
+২. **Real-time Notifications:** যখনই কোনো প্রোডাক্ট কার্টে যোগ করা হয় বা রিমুভ করা হয়, ইউজারকে `React Toastify`-এর মাধ্যমে তাৎক্ষণিক মেসেজ দেখানো হয়।
+৩. **Fully Responsive Design:** সাইটটি ল্যাপটপ, ট্যাবলেট এবং মোবাইল—সব ধরনের ডিভাইসে ব্যবহারের উপযোগী করে তৈরি করা হয়েছে।
+4.
