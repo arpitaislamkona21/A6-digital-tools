@@ -121,7 +121,7 @@ const App = () => {
   </div>
 </header>
 
-<div className="bg-blue-600 py-10 px-6">
+<div className="bg-gradient-to-r from-blue-500 to-purple-500 py-10 px-6">
   <div className="container mx-auto flex flex-col md:flex-row justify-around items-center text-white gap-8 md:gap-0">
     
     
@@ -131,7 +131,7 @@ const App = () => {
     </div>
 
    
-    <div className="hidden md:block h-16 w-[1px] bg-blue-400"></div>
+    <div className="hidden md:block h-16 w-px bg-blue-400"></div>
 
     
     <div className="text-center">
@@ -140,7 +140,7 @@ const App = () => {
     </div>
 
    
-    <div className="hidden md:block h-16 w-[1px] bg-blue-400"></div>
+    <div className="hidden md:block h-16 w-px bg-blue-400"></div>
 
     
     <div className="text-center">
@@ -314,10 +314,7 @@ const App = () => {
   </div>
 </section>
 
-      
-
-
-
+    
 {/* --- CTA Section (Ready To Transform) --- */}
 <div className="bg-gradient-to-r from-blue-500 to-purple-500 py-16 px-4 text-center text-white">
   <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready To Transform Your Workflow?</h2>
