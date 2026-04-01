@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content instantly with our advanced AI writing tool.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "badge-secondary",
+    "features": ["100+ templates", "SEO optimization", "Export to PDF"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2593/2593549.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Pack",
+    "description": "Get access to 500+ premium UI/UX design templates for your next project.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "badge-primary",
+    "features": ["Figma files included", "Lifetime updates", "Commercial license"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1260/1260212.png"
+  },
+  {
+    "id": 3,
+    "name": "Social Manager",
+    "description": "Schedule and manage all your social media posts from one dashboard.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "badge-accent",
+    "features": ["Analytics dashboard", "Multi-platform", "Auto-reply"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1968/1968641.png"
+  },
+  {
+    "id": 4,
+    "name": "Auto Tooling",
+    "description": "Automate your repetitive tasks with our powerful script builder.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Trending",
+    "tagType": "badge-ghost",
+    "features": ["Workflow automation", "Custom scripting", "Cloud storage"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
+  },
+  {
+    "id": 5,
+    "name": "Stock Assets",
+    "description": "High-quality stock photos and videos for your creative content.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Hot",
+    "tagType": "badge-info",
+    "features": ["4K resolution", "Royalty free", "Daily updates"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3063/3063822.png"
+  },
+  {
+    "id": 6,
+    "name": "SEO Analyzer",
+    "description": "Rank your website on the first page with detailed insights.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Essential",
+    "tagType": "badge-warning",
+    "features": ["Keyword research", "Competitor analysis", "Site audit"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1152/1152912.png"
+  }
+]
