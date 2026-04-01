@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa';
 
 const App = () => {
   const [products, setProducts] = useState([]);
@@ -381,12 +382,19 @@ const App = () => {
         <div>
           <h4 className="text-white font-semibold mb-3 text-xs uppercase tracking-wider">Social Links</h4>
         <div className="flex gap-3">
-          {['instagram', 'facebook', 'twitter'].map((social) => (
-            <div key={social} className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all">
-              <span className="text-white text-[10px]">{social[0].toUpperCase()}</span>
-            </div>
-          ))}
-        </div>
+  {[
+    { name: 'instagram', icon: <FaInstagram /> },
+    { name: 'facebook', icon: <FaFacebookF /> },
+    { name: 'twitter', icon: <FaTwitter /> }
+  ].map((social) => (
+    <div 
+      key={social.name} 
+      className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 cursor-pointer transition-all text-white text-lg"
+    >
+      {social.icon}
+    </div>
+  ))}
+</div>
         </div>
       
     </div>
